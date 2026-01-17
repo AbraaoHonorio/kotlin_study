@@ -1,32 +1,42 @@
-### IntelliJ IDEA ###
+# ===============================
+# IntelliJ IDEA
+# ===============================
+.idea/
+*.iml
+*.ipr
+*.iws
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### Kotlin ###
-.kotlin
+# ===============================
+# Gradle
+# ===============================
+.gradle/
+build/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# ===============================
+# Kotlin
+# ===============================
+*.class
+*.log
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# ===============================
+# JVM / OS
+# ===============================
+hs_err_pid*
+replay_pid*
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# ===============================
+# macOS
+# ===============================
 .DS_Store
+
+# ===============================
+# Windows
+# ===============================
+Thumbs.db
+desktop.ini
+
+# ===============================
+# VS Code (optional)
+# ===============================
+.vscode/
